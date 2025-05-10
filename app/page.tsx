@@ -45,7 +45,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 0.5 }}
-              className="md:col-span-2 p-6 rounded-2xl shadow-lg bg-card border border-foreground/10 hover:shadow-xl transition-all duration-300"
+              className="md:col-span-2 p-6 rounded-2xl shadow-sm border border-foreground/10 hover:shadow-md transition-all duration-300"
             >
               <h2 className="text-xl font-semibold mb-4 border-b border-foreground/10 pb-2 flex items-center">
                 <span className="inline-block w-2 h-2 rounded-full bg-primary mr-2"></span>
