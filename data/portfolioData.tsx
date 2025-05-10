@@ -48,10 +48,5 @@ export const links: LinkProps[] = [
     name: "SIGNATE",
     url: "https://signate.jp/users/111616",
     delay: 0.1
-  },
-  {
-    name: "Blog",
-    url: "https://cotora.github.io/blog/",
-    delay: 0.1
   }
 ];
