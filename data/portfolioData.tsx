@@ -48,5 +48,10 @@ export const links: LinkProps[] = [
     name: "SIGNATE",
     url: "https://signate.jp/users/111616",
     delay: 0.1
-  }
+    },
+    {
+        name: "kaggle",
+        url: "https://www.kaggle.com/cotora2121",
+        delay: 0.1
+    },
 ];
