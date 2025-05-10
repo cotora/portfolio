@@ -4,7 +4,7 @@ import { WorkLinkItem } from '@/components/WorkLinkItem';
 export const sections: SectionProps[] = [
   {
     title: "Interests",
-    items: ["medical AI", "low-layer", "algorithm", "web", "graphic"],
+    items: ["machine learning", "algorithm", "health care"],
     delay: 0.4,
     color: "from-blue-500/20 to-indigo-500/20"
   },
