@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-rgb: 99, 102, 241; /* インディゴ色のRGB値、実際のプライマリカラーに合わせて調整してください */
 }
 
 @theme inline {
