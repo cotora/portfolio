@@ -11,7 +11,6 @@ export default function Footer() {
       className="mt-16 pt-6 border-t border-foreground/10 text-center text-sm text-foreground/60"
       >
     <a href="https://iconscout.com/icons/kaggle" className="text-underline font-size-sm" target="_blank">Kaggle</a> on <a href="https://iconscout.com" className="text-underline font-size-sm">IconScout</a>
-    <p>© 2025 cotora. All rights reserved.</p>
     </motion.footer>
   );
 }
