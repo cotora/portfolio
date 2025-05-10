@@ -11,4 +11,5 @@ export interface LinkProps {
   name: string;
   url: string;
   delay: number;
+  icon?: string;
 }

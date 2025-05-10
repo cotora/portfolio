@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { LinkProps } from '@/types/portfolio';
 import { ArrowUpRight } from 'lucide-react';
@@ -20,6 +21,15 @@ export default function LinkButton({ link }: { link: LinkProps }) {
         target="_blank"
         rel="noopener noreferrer"
       >
+        {link.icon && (
+            <Image
+                src={link.icon}
+                alt={link.name}
+                width={24}
+                height={24}
+                quality={100}
+            />
+        )}
         <span className="font-medium">{link.name}</span>
         <div className="flex items-center">
           <motion.div

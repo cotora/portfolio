@@ -42,16 +42,19 @@ export const links: LinkProps[] = [
   {
     name: "AtCoder",
     url: "https://atcoder.jp/users/cotora",
-    delay: 0.1
-  },
+    delay: 0.1,
+    icon: "/atcoder_logo_white.svg"
+    },
+    {
+        name: "kaggle",
+        url: "https://www.kaggle.com/cotora2121",
+        delay: 0.1,
+        icon: "/kaggle.svg"
+    },
   {
     name: "SIGNATE",
     url: "https://signate.jp/users/111616",
     delay: 0.1
     },
-    {
-        name: "kaggle",
-        url: "https://www.kaggle.com/cotora2121",
-        delay: 0.1
-    },
+
 ];
