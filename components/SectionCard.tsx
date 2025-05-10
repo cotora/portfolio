@@ -20,7 +20,7 @@ const SectionCard = ({ section }: { section: SectionProps }) => {
         {section.title}
       </h2>
       <div className="space-y-3">
-        <ul className={`space-y-2 ${section.title !== "Works" ? "list-disc marker:text-primary pl-5" : "list-none pl-1"}`}>
+        <ul className="list-none space-y-2 pl-4">
           {section.items.map((item, idx) => (
             <li key={idx}>{item}</li>
           ))}

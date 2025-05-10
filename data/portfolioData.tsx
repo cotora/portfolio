@@ -1,5 +1,8 @@
 import { SectionProps, LinkProps } from '@/types/portfolio';
 import { WorkLinkItem } from '@/components/WorkLinkItem';
+import { FaPython, FaReact, FaGitAlt, FaDocker } from 'react-icons/fa';
+import { TbBrandGolang, TbBrandCpp, TbBrandTypescript, TbBrandNextjs } from 'react-icons/tb';
+import { SiC } from 'react-icons/si';
 
 export const sections: SectionProps[] = [
   {
@@ -31,8 +34,20 @@ export const sections: SectionProps[] = [
     color: "from-purple-500/20 to-pink-500/20"
   },
   {
-    title: "Language",
-    items: ["Python", "Go", "C++", "C", "TypeScript"],
+    title: "Language/Framework/Tool",
+    items: [
+      <div key="languages" className="grid grid-cols-2 gap-x-4 gap-y-2 w-full">
+        <span className="flex items-center gap-2"><FaPython className="text-[#3776AB]" /> Python</span>
+        <span className="flex items-center gap-2"><TbBrandGolang className="text-[#00ADD8]" /> Go</span>
+        <span className="flex items-center gap-2"><TbBrandCpp className="text-[#00599C]" /> C++</span>
+        <span className="flex items-center gap-2"><SiC className="text-[#A8B9CC]" /> C</span>
+        <span className="flex items-center gap-2"><TbBrandTypescript className="text-[#3178C6]" /> TypeScript</span>
+        <span className="flex items-center gap-2"><FaReact className="text-[#61DAFB]" /> React</span>
+        <span className="flex items-center gap-2"><TbBrandNextjs className="text-white" /> Next.js</span>
+        <span className="flex items-center gap-2"><FaGitAlt className="text-[#F05032]" /> Git</span>
+        <span className="flex items-center gap-2"><FaDocker className="text-[#2496ED]" /> Docker</span>
+      </div>
+    ],
     delay: 0.7,
     color: "from-pink-500/20 to-blue-500/20"
   }
@@ -56,5 +71,4 @@ export const links: LinkProps[] = [
     url: "https://signate.jp/users/111616",
     delay: 0.1
     },
-
 ];
