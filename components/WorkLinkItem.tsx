@@ -10,7 +10,7 @@ export const WorkLinkItem = ({ href, children }: WorkLinkItemProps) => {
   return (
     <Link 
       href={href}
-      className="group inline-flex items-center px-3 py-1.5 rounded-full bg-primary/10 hover:bg-primary/20 text-primary font-medium border border-foreground/5 hover:border-foreground/10 transition-all duration-300"
+      className="group inline-flex items-center px-3 py-1.5 rounded-full bg-primary/10 hover:bg-primary/20 text-primary font-medium border border-foreground/10 hover:border-foreground/10 transition-all duration-300"
       target="_blank" 
       rel="noopener noreferrer"
     >

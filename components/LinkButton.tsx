@@ -17,7 +17,7 @@ export default function LinkButton({ link }: { link: LinkProps }) {
     >
       <Link
         href={link.url}
-        className="group flex items-center justify-between p-4 rounded-xl bg-gradient-to-br from-background to-background/50 backdrop-blur-sm shadow-lg hover:shadow-xl border border-foreground/5 hover:border-primary/20 text-foreground/90 hover:text-primary transition-all duration-75 overflow-hidden relative"
+        className="group flex items-center justify-between p-4 rounded-xl bg-gradient-to-br from-background to-background/50 backdrop-blur-sm shadow-lg hover:shadow-xl border border-foreground/10 hover:border-primary/20 text-foreground/90 hover:text-primary transition-all duration-75 overflow-hidden relative"
         target="_blank"
         rel="noopener noreferrer"
       >
