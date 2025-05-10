@@ -22,7 +22,7 @@ export default function Header() {
         >
           <Image
             id="icon"
-            src="/icon_cloud_face.png"
+            src="/icon.svg"
             alt="icon"
             width={60}
             height={60}
