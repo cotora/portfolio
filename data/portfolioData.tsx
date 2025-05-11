@@ -2,7 +2,7 @@ import { SectionProps, LinkProps } from '@/types/portfolio';
 import { WorkLinkItem } from '@/components/WorkLinkItem';
 import { FaPython, FaReact, FaGitAlt, FaDocker } from 'react-icons/fa';
 import { TbBrandGolang, TbBrandCpp, TbBrandTypescript, TbBrandNextjs } from 'react-icons/tb';
-import { SiC } from 'react-icons/si';
+import { SiC, SiPytorch, SiLangchain, SiLightning } from 'react-icons/si';
 
 export const sections: SectionProps[] = [
   {
@@ -44,6 +44,9 @@ export const sections: SectionProps[] = [
         <span className="flex items-center gap-2"><TbBrandTypescript className="text-[#3178C6]" /> TypeScript</span>
         <span className="flex items-center gap-2"><FaReact className="text-[#61DAFB]" /> React</span>
         <span className="flex items-center gap-2"><TbBrandNextjs className="text-white" /> Next.js</span>
+        <span className="flex items-center gap-2"><SiPytorch className="text-[#EE4C2C]" /> PyTorch</span>
+        <span className="flex items-center gap-2"><SiLightning className="text-[#792EE5]" /> Lightning</span>
+        <span className="flex items-center gap-2"><SiLangchain className="text-white" /> LangChain</span>
         <span className="flex items-center gap-2"><FaGitAlt className="text-[#F05032]" /> Git</span>
         <span className="flex items-center gap-2"><FaDocker className="text-[#2496ED]" /> Docker</span>
       </div>
