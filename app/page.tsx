@@ -51,7 +51,7 @@ export default function Home() {
                 <span className="inline-block w-2 h-2 rounded-full bg-primary mr-2"></span>
                 Others
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                 {links.map((link) => (
                   <LinkButton key={link.name} link={link} />
                 ))}
