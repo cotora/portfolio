@@ -22,13 +22,18 @@ export default function LinkButton({ link }: { link: LinkProps }) {
         rel="noopener noreferrer"
       >
         {link.icon ? (
+          typeof link.icon === 'string' ? (
             <Image
-                src={link.icon}
-                alt={link.name}
-                width={24}
-                height={24}
-                quality={100}
+              src={link.icon}
+              alt={link.name}
+              width={24}
+              height={24}
+              quality={100}
             />
+          ) : (
+            // Assuming link.icon is a ReactNode if not a string
+            <div className="w-6 h-6 flex items-center justify-center">{link.icon}</div>
+          )
         ) : (
           <div className="w-6 h-6" /> // Spacer for when icon is not present (24px)
         )}

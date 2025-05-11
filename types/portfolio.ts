@@ -10,6 +10,6 @@ export interface SectionProps {
 export interface LinkProps {
   name: string;
   url: string;
+  icon?: string | ReactNode; // string (for Image src) or ReactNode
   delay: number;
-  icon?: string;
 }

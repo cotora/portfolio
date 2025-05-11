@@ -2,7 +2,7 @@ import { SectionProps, LinkProps } from '@/types/portfolio';
 import { WorkLinkItem } from '@/components/WorkLinkItem';
 import { FaPython, FaReact, FaGitAlt, FaDocker } from 'react-icons/fa';
 import { TbBrandGolang, TbBrandCpp, TbBrandTypescript, TbBrandNextjs } from 'react-icons/tb';
-import { SiC, SiPytorch, SiLangchain, SiLightning } from 'react-icons/si';
+import { SiC, SiPytorch, SiLangchain, SiLightning, SiZenn } from 'react-icons/si';
 
 export const sections: SectionProps[] = [
   {
@@ -75,4 +75,10 @@ export const links: LinkProps[] = [
     delay: 0.1,
     icon: "/signate_icon.svg"
     },
+  {
+    name: "Zenn",
+    url: "https://zenn.dev/cotora",
+    delay: 0.1,
+    icon: <SiZenn className="text-[#3EA8FF]" />
+  },
 ];
