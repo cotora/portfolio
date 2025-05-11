@@ -69,6 +69,7 @@ export const links: LinkProps[] = [
   {
     name: "SIGNATE",
     url: "https://signate.jp/users/111616",
-    delay: 0.1
+    delay: 0.1,
+    icon: "/signate_icon.svg"
     },
 ];

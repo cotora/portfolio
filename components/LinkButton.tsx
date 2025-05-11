@@ -21,7 +21,7 @@ export default function LinkButton({ link }: { link: LinkProps }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {link.icon && (
+        {link.icon ? (
             <Image
                 src={link.icon}
                 alt={link.name}
@@ -29,6 +29,8 @@ export default function LinkButton({ link }: { link: LinkProps }) {
                 height={24}
                 quality={100}
             />
+        ) : (
+          <div className="w-6 h-6" /> // Spacer for when icon is not present (24px)
         )}
         <span className="font-medium">{link.name}</span>
         <div className="flex items-center">
